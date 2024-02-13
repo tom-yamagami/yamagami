@@ -1,1 +1,28 @@
+<html>
 
+<link rel="icon" href="icon.png">
+<link rel="stylesheet" href="https://tom-yamagami.github.io/yamagami/tycss.css"/>
+
+<head>
+  <script>
+	  const ttl = "更新履歴"
+	  document.title= ttl + " | Tomoki Yamagami"
+	  var LIST = [];
+  </script>
+  <meta name="viewport" content="width=device-width,initial-scale=1.0,user-scalable=yes" />
+</head>
+  
+<body>
+
+<script src="https://tom-yamagami.github.io/yamagami/getCsv.csv"></script>
+<div class="header">
+  <a href="index.html">Tomoki Yamagami</a>
+</div>
+
+<center>
+  <div id="ttlhead"><script>document.write(ttl)</script></div>
+</center>
+<script>document.write(csvArray[1][1])</script>
+</body>
+
+</html>
