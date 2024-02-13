@@ -2,7 +2,7 @@
 let csv = new XMLHttpRequest();
  
 // CSVファイルへのパス
-csv.open("GET", "product.csv", false);
+csv.open("GET", "history_data.csv", false);
  
 // csvファイル読み込み失敗時のエラー対応
 try {
