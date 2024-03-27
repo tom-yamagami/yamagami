@@ -113,6 +113,10 @@ header a {
 	color: #fff
 }
 
+header a:hover {
+	color: #fff;	/*マウスオン時の文字色*/
+}
+
 /*ロゴ画像設定*/
 #logo img {
 	width: 400px;	/*画像幅*/
@@ -224,7 +228,8 @@ header a {
 ---------------------------------------------------------------------------*/
 footer {
 	background: #224acf;
-	color: #fff;
+	margin-left: 0;
+ 	color: #fff;
 	clear: both;
 	text-align: center;	/*文字をセンタリング*/
 	padding: 10px 0px 10px;	/*上、左右、下へのボックス内の余白*/
@@ -235,6 +240,11 @@ footer a {
 	text-decoration: none;
 	border: none;
 }
+
+footer a:hover {
+	color: #fff;	/*マウスオン時の文字色*/
+}
+
 footer .pr {
 	display: block;
 }
