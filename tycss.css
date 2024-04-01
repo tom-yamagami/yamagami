@@ -38,9 +38,12 @@ a:hover {
 	color: #224acf;	/*マウスオン時の文字色*/
 }
 
+ul.headtab {
+	list-style-type: none;
+}
+
 /*ボタンブロック全体*/
 ul.btn {
-	list-style-type: none;
 	list-style: none;margin: 0;padding: 0;
 	display: flex;	/*flexボックスを使う指定*/
 }
