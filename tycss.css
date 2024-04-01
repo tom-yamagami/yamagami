@@ -19,7 +19,6 @@ body {
 
 h1 {margin: 0px;padding: 0px;font-size: 250%;font-weight: normal;font-family: 'Wolfers', sans-serif;}
 h2,h3,h4,h5,p,ul,ol,li,dl,dt,dd,form,figure,form,select,input,textarea {margin: 0px;padding: 0px;font-size: 100%;font-weight: normal;}
-ul {list-style-type: none;}
 ol {padding-left: 40px;padding-bottom: 15px;}
 img {border: none;max-width: 100%;height: auto;vertical-align: middle;}
 table {border-collapse:collapse;font-size: 100%;border-spacing: 0;}
@@ -41,6 +40,7 @@ a:hover {
 
 /*ボタンブロック全体*/
 ul.btn {
+	list-style-type: none;
 	list-style: none;margin: 0;padding: 0;
 	display: flex;	/*flexボックスを使う指定*/
 }
