@@ -79,7 +79,8 @@ ul.contact li {
 
 .intro_myself{
 	width: 100%;
-	max-width: 800px;
+	/* max-width: 800px; */
+	max-width: 850px;
 	display: flex;
 	align-items: center;
 	margin: 0 auto;
